@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ptak{
+            height: 200px;
+            
+            animation:ptak  7s  forwards 
+        }
+        @keyframes ptak {
+            0%{
+                translate: 0px 0px;
+            }
+            40%{
+                translate:700px 0px;
+            }
+            80%{
+                translate: 700px 0px;
+            }
+            94%{ 
+                opacity: 1;
+            }
+            100%{
+                translate: 1920px 0px;
+                opacity: 0;
+            }
+
+        }
+
+        .seminko{
+            height: 15px;
+            width: 10px;
+            position: absolute;
+            left: 194px;
+            top: 126px;
+            border-radius: 50%;
+            background-color: brown;
+            animation: seminko 7s forwards ;
+        }
+        @keyframes seminko {
+            0%{
+                translate: 0px 0px;
+            }
+            40%{
+                translate:700px 0px;
+            }
+            80%{
+                translate: 700px 0px;
+            }
+            94%{ 
+                opacity: 1;
+            }
+            100%{
+                translate: 700px 600px;
+                opacity: 0;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="seminko"></div>
+    <img class="ptak" src="animal-1298005_640.png" alt="">
+    
+    </div>
+</body>
+</html>
